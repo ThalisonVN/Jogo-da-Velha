@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playpen Sans', cursive;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(240, 240, 240);
+}
+
+main h1 {
+    margin-bottom: 15px;
+}
+
+.pontos {
+    display: flex;
+    width: 350px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+
+.quadrados {
+    display: flex;
+    flex-wrap: wrap;
+    width: 246px;
+}
+
+.quad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+.quad-top-left {
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.quad-top-mid {
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.quad-top-right {
+    border-bottom: 2px solid black;
+}
+
+.quad-mid-left {
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.quad-mid {
+    border-bottom: 2px solid black;
+}
+
+.quad-mid-right {
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.quad-bot-left {
+    border-right: 2px solid black;
+}
+
+.quad-bot-mid {
+    border-right: 2px solid black;
+
+}
+
+.buttons {
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 30px;
+    border: 1px solid #CCC;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    background-color: rgb(19, 101, 255);
+    color: white;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.btn:active {
+    background-color: rgb(81, 140, 252);
+    transform: translateY(4px);
+}

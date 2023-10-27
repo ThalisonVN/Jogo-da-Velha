@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <h1>JOGO DA VELHA</h1>
+        <section class="pontos">
+            <p id="px">Pontos X: <strong>0</strong></p>
+            <p id="po">Pontos O: <strong>0</strong></p>
+            <p id="velha">Velha: <strong>0</strong></p>
+        </section>
+
+        <section class="quadrados">
+            <span class="quad quad-top-left"></span>
+            <span class="quad quad-top-mid"></span>
+            <span class="quad quad-top-right"></span>
+            <span class="quad quad-mid-left"></span>
+            <span class="quad quad-mid"></span>
+            <span class="quad quad-mid-right"></span>
+            <span class="quad quad-bot-left"></span>
+            <span class="quad quad-bot-mid"></span>
+            <span class="quad quad-bot-right"></span>
+
+            <div class="buttons">
+                <button class="btn" id="reset">Resetar</button>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
